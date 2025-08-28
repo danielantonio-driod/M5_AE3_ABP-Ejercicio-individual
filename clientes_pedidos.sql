@@ -19,7 +19,7 @@ SELECT DATABASE() AS base_actual;
 /* ----------------------------------------------------------
    1) Limpiar tablas en orden seguro (por si ya existen)
 -----------------------------------------------------------*/
-SET FOREIGN_KEY_CHECKS = 0;
+SET FOREIGN_KEY_CHECKS =0;
 DROP TABLE IF EXISTS pedidos;
 DROP TABLE IF EXISTS clientes;
 SET FOREIGN_KEY_CHECKS = 1;
